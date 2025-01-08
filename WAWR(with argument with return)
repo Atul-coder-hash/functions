@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,a,b,c;
+    int fact(int,int);
+    cout<<"enter first number:-";
+    cin>>a;
+    cout<<"enter second number:-";
+    cin>>b;
+    c= fact(a,b);
+    cout<<"sum:-"<<c;    
+}
+int fact(int a,int b)
+{
+    int sum=0;
+    sum=a+b;
+    return(sum);
+}
+   
+        
+    
+    
