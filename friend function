@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class Box
+{
+    int length;
+    public:
+    Box()
+    {
+        length =0;
+    
+    }
+    friend int printlen(Box);
+};
+
+int printlen(Box c)
+{
+    c.length = c.length +10;
+    return(c.length);
+}
+int main()
+{
+    Box obj;
+    int res;
+    res= printlen(obj);
+    cout<<"length of box="<<res;
+}
