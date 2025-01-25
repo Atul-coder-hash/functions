@@ -2,7 +2,7 @@
 using namespace std;
 class Box
 {
-    int length;
+    int length,breath;
     public:
     Box()
     {
